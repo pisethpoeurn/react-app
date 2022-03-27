@@ -1,0 +1,21 @@
+.Header {
+
+  &__header {
+    margin: 10px;
+
+    &  .Header__header-item {
+      float: left;
+      padding: 10px;
+      
+      a {
+        color: unset;
+        text-decoration: unset
+      }
+
+      &:hover {
+        cursor: pointer;
+        background-color: green;
+      }
+    }
+  }
+}
